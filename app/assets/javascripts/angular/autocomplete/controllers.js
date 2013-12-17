@@ -69,8 +69,8 @@ angular.module('odyssey.controllers', []).
 
       var opts = {
         'url' : 'https://api.foursquare.com/v2/venues/suggestCompletion?',
-        'client_id'     : 'AAUXORIZZ1CNKYBDNXUINODGQT24W2XO3IQAFIZ04Y0YBWVQ',
-        'client_secret' : 'L0KWGXINDGXNCHLBPQKDBVY4QPARCWZLTSKJPBMV11ICADCX',
+        'client_id'     : 'FW1TXGRD1EPVYDAUCKURLR2LDKK2PTITI0HAQACIJK3TAPNF',
+        'client_secret' : 'V2SO4SQYZBXXJMRHLRRGPTL1VK2VONLBNQMQQ0CPAJDT0YQM',
         'll' : $scope.current_lat + ',' + $scope.current_lng, 
         //'ll' : '40.7,-74.0',
         'limit' : 10,
