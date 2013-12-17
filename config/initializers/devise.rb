@@ -228,7 +228,7 @@ Devise.setup do |config|
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'
   require "omniauth-foursquare"
   OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE if Rails.env.development? 
-  config.omniauth :foursquare, "AAUXORIZZ1CNKYBDNXUINODGQT24W2XO3IQAFIZ04Y0YBWVQ", "L0KWGXINDGXNCHLBPQKDBVY4QPARCWZLTSKJPBMV11ICADCX"
+  config.omniauth :foursquare, "FW1TXGRD1EPVYDAUCKURLR2LDKK2PTITI0HAQACIJK3TAPNF", "V2SO4SQYZBXXJMRHLRRGPTL1VK2VONLBNQMQQ0CPAJDT0YQM"
 
 
   # ==> Warden configuration

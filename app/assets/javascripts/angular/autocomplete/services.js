@@ -13,8 +13,8 @@ angular.module('odyssey.services', ['ngResource', 'rails'],
                 {
                     'venueId': '4fc77712e4b081ac0cd040e6',
                     'aspect': '',
-                    'client_id' : 'AAUXORIZZ1CNKYBDNXUINODGQT24W2XO3IQAFIZ04Y0YBWVQ',
-                    'client_secret' : 'L0KWGXINDGXNCHLBPQKDBVY4QPARCWZLTSKJPBMV11ICADCX',
+                    'client_id' : 'FW1TXGRD1EPVYDAUCKURLR2LDKK2PTITI0HAQACIJK3TAPNF',
+                    'client_secret' : 'V2SO4SQYZBXXJMRHLRRGPTL1VK2VONLBNQMQQ0CPAJDT0YQM',
                     'v' : '20130715'
                 });
         });
@@ -23,8 +23,8 @@ angular.module('odyssey.services', ['ngResource', 'rails'],
         delete $http.defaults.headers.common["X-Requested-With"];
         return $resource('https://api.foursquare.com/v2/venues/:aspect',
             {
-                'client_id' : 'AAUXORIZZ1CNKYBDNXUINODGQT24W2XO3IQAFIZ04Y0YBWVQ',
-                'client_secret' : 'L0KWGXINDGXNCHLBPQKDBVY4QPARCWZLTSKJPBMV11ICADCX',
+                'client_id' : 'FW1TXGRD1EPVYDAUCKURLR2LDKK2PTITI0HAQACIJK3TAPNF',
+                'client_secret' : 'V2SO4SQYZBXXJMRHLRRGPTL1VK2VONLBNQMQQ0CPAJDT0YQM',
                 'v' : '20130715'
             });
     })
