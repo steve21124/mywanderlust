@@ -30,7 +30,7 @@ angular.module('odyssey.directives', []).
     		                }
     		                currentCity.setProperty(current_city);
 
-
+							console.log(current_city);
                         var form = document.createElement("form");
                         form.setAttribute("method", "post");
                         form.setAttribute("action", "/trips");
